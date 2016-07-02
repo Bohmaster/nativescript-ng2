@@ -1,0 +1,189 @@
+execFile: /home/voidhmaster/android-sdk-linux/platform-tools/adb "help"
+execFile: /home/voidhmaster/android-sdk-linux/platform-tools/adb "help"
+spawn: /home/voidhmaster/android-sdk-linux/platform-tools/adb "--help"
+Socket {
+  _connecting: false,
+  _hadError: false,
+  _handle: 
+   Pipe {
+     _externalStream: {},
+     fd: 13,
+     writeQueueSize: 0,
+     owner: [Circular],
+     onread: [Function: onread],
+     reading: true },
+  _parent: null,
+  _host: null,
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: true,
+     sync: false,
+     needReadable: true,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: 
+   { end: { [Function: g] listener: [Function: onend] },
+     finish: [Function: onSocketFinish],
+     _socketEnd: [Function: onSocketEnd],
+     close: [Function] },
+  _eventsCount: 4,
+  _maxListeners: undefined,
+  _writableState: 
+   WritableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     needDrain: false,
+     ending: false,
+     ended: false,
+     finished: false,
+     decodeStrings: false,
+     defaultEncoding: 'utf8',
+     length: 0,
+     writing: false,
+     corked: 0,
+     sync: true,
+     bufferProcessing: false,
+     onwrite: [Function],
+     writecb: null,
+     writelen: 0,
+     bufferedRequest: null,
+     lastBufferedRequest: null,
+     pendingcb: 0,
+     prefinished: false,
+     errorEmitted: false,
+     bufferedRequestCount: 0,
+     corkedRequestsFree: CorkedRequest { next: [Object], entry: null, finish: [Function] } },
+  writable: false,
+  allowHalfOpen: false,
+  destroyed: false,
+  bytesRead: 0,
+  _bytesDispatched: 0,
+  _sockname: null,
+  _writev: null,
+  _pendingData: null,
+  _pendingEncoding: '',
+  server: null,
+  _server: null }
+Exec uname -a 
+ stdout: Linux anw 4.2.0-27-generic #32~14.04.1-Ubuntu SMP Fri Jan 22 15:32:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+ 
+ stderr: 
+Exec npm -v 
+ stdout: 3.6.0
+ 
+ stderr: 
+spawn: java "-version"
+Exec node-gyp -v 
+ stdout:  
+ stderr: /bin/sh: 1: node-gyp: not found
+
+Exec '/home/voidhmaster/android-sdk-linux/platform-tools/adb' version 
+ stdout: Android Debug Bridge version 1.0.36
+Revision fd9e4d07b0f5-android
+ 
+ stderr: 
+spawn: /home/voidhmaster/android-sdk-linux/tools/android "-h"
+Result when throw error is false:
+{ stdout: '\n       Usage:\n       android [global options] action [action options]\n       Global options:\n  -s --silent     : Silent mode, shows errors only.\n  -v --verbose    : Verbose mode, shows errors, warnings and all messages.\n     --clear-cache: Clear the SDK Manager repository manifest cache.\n  -h --help       : Help on a specific command.\n\n                                                                    Valid\n                                                                    actions\n                                                                    are\n                                                                    composed\n                                                                    of a verb\n                                                                    and an\n                                                                    optional\n                                                                    direct\n                                                                    object:\n-    sdk              : Displays the SDK Manager window.\n-    avd              : Displays the AVD Manager window.\n-   list              : Lists existing targets or virtual devices.\n-   list avd          : Lists existing Android Virtual Devices.\n-   list target       : Lists existing targets.\n-   list device       : Lists existing devices.\n-   list sdk          : Lists remote SDK repository.\n- create avd          : Creates a new Android Virtual Device.\n-   move avd          : Moves or renames an Android Virtual Device.\n- delete avd          : Deletes an Android Virtual Device.\n- update avd          : Updates an Android Virtual Device to match the folders\n                        of a new SDK.\n- create project      : Creates a new Android project.\n- update project      : Updates an Android project (must already have an\n                        AndroidManifest.xml).\n- create test-project : Creates a new Android project for a test package.\n- update test-project : Updates the Android project for a test package (must\n                        already have an AndroidManifest.xml).\n- create lib-project  : Creates a new Android library project.\n- update lib-project  : Updates an Android library project (must already have\n                        an AndroidManifest.xml).\n- create uitest-project: Creates a new UI test project.\n- update adb          : Updates adb to support the USB devices declared in the\n                        SDK add-ons.\n- update sdk          : Updates the SDK by suggesting new platforms to install\n                        if available.\n',
+  stderr: '',
+  exitCode: 1 }
+Exec mono --version 
+ stdout:  
+ stderr: /bin/sh: 1: mono: not found
+
+Exec git --version 
+ stdout: git version 1.9.1
+ 
+ stderr: 
+Exec gradle -v 
+ stdout:  
+ stderr: /bin/sh: 1: gradle: not found
+
+Exec "javac" -version 
+ stdout:  
+ stderr: javac 1.8.0_91
+
+System information:
+{ procInfo: 'nativescript/2.1.0',
+  platform: 'linux',
+  os: 'Linux anw 4.2.0-27-generic #32~14.04.1-Ubuntu SMP Fri Jan 22 15:32:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux\n',
+  shell: '/bin/bash',
+  dotNetVer: null,
+  procArch: 'x64',
+  nodeVer: 'v5.7.0',
+  npmVer: '3.6.0',
+  javaVer: '1.8.0',
+  nodeGypVer: null,
+  xcodeVer: null,
+  xcodeprojGemLocation: null,
+  itunesInstalled: false,
+  cocoapodVer: null,
+  adbVer: 'Android Debug Bridge version 1.0.36',
+  androidInstalled: true,
+  monoVer: null,
+  gitVer: '1.9.1',
+  gradleVer: null,
+  javacVersion: '1.8.0_91' }
+Initializing analytics statuses.
+Analytics statuses: 
+{ TrackFeatureUsage: 1, TrackExceptions: 1 }
+Trying to track feature 'Non-interactive' with value 'run'.
+Looking for project in '/home/voidhmaster/Desktop/angular2-seed-advanced'
+Looking for project in '/home/voidhmaster/Desktop'
+Looking for project in '/home/voidhmaster'
+Looking for project in '/home'
+Looking for project in '/'
+No project found at or above '/home/voidhmaster/Desktop/angular2-seed-advanced'.
+No project found at or above '%s' and neither was a --path specified.
+Analytics statuses: 
+{ TrackFeatureUsage: 1, TrackExceptions: 1 }
+Trying to track feature 'Non-interactive' with value 'help'.
+List of registered commands: /?, appstore, appstore|upload, autocomplete, autocomplete|disable, autocomplete|enable, autocomplete|status, build, build|android, build|ios, create, debug, debug|android, debug|ios, deploy, dev-generate-help, dev-generate-messages, dev-post-install, dev-preuninstall, dev-test, dev-test|android, dev-test|ios, device, device|android, device|get-file, device|ios, device|list-applications, device|list-files, device|log, device|put-file, device|run, device|stop, device|uninstall, doctor, emulate, emulate|android, emulate|ios, error-reporting, help, info, init, install, livesync, platform, platform|add, platform|clean, platform|remove, platform|update, plugin, plugin|add, plugin|find, plugin|remove, plugin|search, prepare, publish, publish|ios, run, run|android, run|ios, test, test|android, test|init, test|ios, usage-reporting
+Reading help for command 'run|android'. FileName is 'run-android.md'.
+# run android
+┌────────────────────────────────────────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Usage                                                  │ Synopsis                                                                                                                                                                                                   │
+│ Run on all connected devices and running emulators     │ $ tns run android [--key-store-path <File Path> --key-store-password <Password> --key-store-alias <Name> --key-store-alias-password <Password>] [--release] [--justlaunch]                                 │
+│ Run on a selected connected device or running emulator │ $ tns run android --device <Device ID> [--key-store-path <File Path> --key-store-password <Password> --key-store-alias <Name> --key-store-alias-password <Password>] [--release] [--justlaunch]            │
+│ Start an emulator and run the app inside it            │ $ tns run android --emulator [<Emulator Options>] [--key-store-path <File Path> --key-store-password <Password> --key-store-alias <Name> --key-store-alias-password <Password>] [--release] [--justlaunch] │
+└────────────────────────────────────────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Runs your project on a connected Android device or in a native Android emulator, if configured. This is shorthand for prepare, build and deploy. While your app is running, prints the output from the application in the console.
+
+### Options
+
+    * --device - Specifies a connected device on which to run the app.
+    * --emulator - If set, runs the app in a native emulator for the target platform, if configured. When set, you can also set any other valid combination of emulator options as listed by $ tns help emulate android.
+    * --release - If set, produces a release build. Otherwise, produces a debug build. When set, you must also specify the --key-store-* options.
+    * --key-store-path - Specifies the file path to the keystore file (P12) which you want to use to code sign your APK. You can use the --key-store-* options along with --release to produce a signed release build. You need to specify all --key-store-* options.
+    * --key-store-password - Provides the password for the keystore file specified with --key-store-path. You can use the --key-store-* options along with --release to produce a signed release build. You need to specify all --key-store-* options.
+    * --key-store-alias - Provides the alias for the keystore file specified with --key-store-path. You can use the --key-store-* options along with --release to produce a signed release build. You need to specify all --key-store-* options.
+    * --key-store-alias-password - Provides the password for the alias specified with --key-store-alias-password. You can use the --key-store-* options along with --release to produce a signed release build. You need to specify all --key-store-* options.
+    * --justlaunch - If set, does not print the application output in the console.
+
+### Attributes
+
+    * <Device ID> is the index or name of the target device as listed by $ tns device android
+    * <Emulator Options> is any valid combination of options as listed by $ tns help emulate android
+
+Analytics statuses: 
+{ TrackFeatureUsage: 1, TrackExceptions: 1 }
+Trying to track exception with message 'No project found at or above '/home/voidhmaster/Desktop/angular2-seed-advanced' and neither was a --path specified.'.
